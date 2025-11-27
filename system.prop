@@ -1,0 +1,157 @@
+## owner is @MRX7014 - used by @lyntaxxq
+###
+# begin product/etc/build.prop
+###
+
+# begin common build properties
+ro.product.brand=samsung
+ro.product.device=qssi_64
+ro.product.manufacturer=samsung
+ro.product.model=SM-S938B
+ro.product.name=pa3qxxx
+ro.product.product.brand=samsung
+ro.product.product.device=qssi_64
+ro.product.product.manufacturer=samsung
+ro.product.product.model=SM-S938B
+ro.product.product.name=pa3qxxx
+ro.product.name_for_attestation=pa3qxxx
+ro.product.build.date=Sat Feb  8 12:03:37 KST 2025
+ro.product.build.date.utc=1738983817
+ro.product.build.fingerprint=samsung/pa3qxxx/qssi_64:15/AP3A.240905.015.A2/S938BXXU1AYB4:user/release-keys
+ro.product.build.id=AP3A.240905.015.A2
+ro.product.build.tags=release-keys
+ro.product.build.type=user
+ro.product.build.version.incremental=S938BXXU1AYB4
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=SM8750-AC
+ro.gpu.model=Adreno830
+ro.gpu=Adreno830
+ro.hardware.chipname=Sun
+ro.build.version.sem=3501
+ro.build.version.sep=160000
+ro.build.version.oneui=80000
+ro.system.build.version.sehi=3501
+# end common build properties
+
+# begin PRODUCT_BOOTIMAGE_PROPERTIES
+ro.product.bootimage.brand=samsung
+ro.product.bootimage.device=qssi_64
+ro.product.bootimage.manufacturer=samsung
+ro.product.bootimage.model=SM-S938B
+ro.product.bootimage.name=pa3qxxx
+ro.bootimage.build.date=Sat Feb  8 12:03:37 KST 2025
+ro.bootimage.build.date.utc=1738983817
+ro.bootimage.build.fingerprint=samsung/pa3qxxx/qssi_64:15/AP3A.240905.015.A2/S938BXXU1AYB4:user/release-keys
+ro.bootimage.build.id=AP3A.240905.015.A2
+ro.bootimage.build.tags=release-keys
+ro.bootimage.build.type=user
+ro.bootimage.build.version.incremental=S938BXXU1AYB4
+# end PRODUCT_BOOTIMAGE_PROPERTIES
+###
+# end product/etc/build.prop
+###
+
+###
+# begin vendor/build.prop
+###
+# begin common build properties
+ro.product.vendor.brand=samsung
+ro.product.vendor.device=qssi_64
+ro.product.vendor.manufacturer=samsung
+ro.product.vendor.model=SM-S938B
+ro.product.vendor.name=pa3qxxx
+ro.vendor.build.date=Sat Feb  8 12:03:37 KST 2025
+ro.vendor.build.date.utc=1738983817
+ro.vendor.build.fingerprint=samsung/pa3qxxx/qssi_64:15/AP3A.240905.015.A2/S938BXXU1AYB4:user/release-keys
+ro.vendor.build.id=AP3A.240905.015.A2
+ro.vendor.build.tags=release-keys
+ro.vendor.build.type=user
+ro.vendor.build.version.incremental=S938BXXU1AYB4
+vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so
+# end common build properties
+###
+# end vendor/build.prop
+###
+
+###
+# begin vendor/odm/etc/build.prop
+###
+# begin common build properties
+ro.product.odm.brand=samsung
+ro.product.odm.device=qssi_64
+ro.product.odm.manufacturer=samsung
+ro.product.odm.model=SM-S938B
+ro.product.odm.name=pa3qxxx
+ro.odm.build.date=Sat Feb  8 12:03:37 KST 2025
+ro.odm.build.date.utc=1738983817
+ro.odm.build.fingerprint=samsung/pa3qxxx/qssi_64:15/AP3A.240905.015.A2/S938BXXU1AYB4:user/release-keys
+ro.odm.build.id=AP3A.240905.015.A2
+# end common build properties
+###
+# end vendor/odm/etc/build.prop
+###
+
+###
+# begin system/system/build.prop
+###
+# begin common build properties
+ro.product.system.brand=samsung
+ro.product.system.device=qssi_64
+ro.product.system.manufacturer=samsung
+ro.product.system.model=SM-S938B
+ro.product.system.name=pa3qxxx
+ro.system.build.date=Sat Feb  8 12:03:37 KST 2025
+ro.system.build.date.utc=1738983817
+ro.system.build.fingerprint=samsung/pa3qxxx/qssi_64:15/AP3A.240905.015.A2/S938BXXU1AYB4:user/release-keys
+ro.system.build.id=AP3A.240905.015.A2
+ro.system.build.tags=release-keys
+ro.system.build.type=user
+# end common build properties
+
+# begin build properties
+ro.build.date=Sat Feb  8 12:03:37 KST 2025
+ro.build.date.utc=1738983817
+ro.build.fingerprint=samsung/pa3qxxx/qssi_64:15/AP3A.240905.015.A2/S938BXXU1AYB4:user/release-keys
+ro.build.id=AP3A.240905.015.A2
+ro.build.display.id=AP3A.240905.015.A2.S938BXXU1AYB4 | Nexusify
+ro.build.type=user
+ro.build.user=android-build
+ro.build.host=SWDK6305
+ro.build.tags=release-keys
+ro.build.flavor=pa3qxxx-user
+ro.build.product=pa3qxxx
+ro.build.description=pa3qxxx-user 15 AP3A.240905.015.A2 S938BXXU1AYB4 release-keys
+ro.build.version.incremental=S938BXXU1AYB4
+# end build properties
+
+# Samsung Specific Properties
+ro.build.PDA=S938BXXU1AYB4
+# Samsung Specific Properties
+
+###
+# end system/system/build.prop
+###
+
+###
+# begin system_ext/etc/build.prop
+###
+# begin common build properties
+ro.product.system_ext.brand=samsung
+ro.product.system_ext.device=qssi_64
+ro.product.system_ext.manufacturer=samsung
+ro.product.system_ext.model=SM-S938B
+ro.product.system_ext.name=pa3qxxx
+ro.system_ext.build.date=Sat Feb  8 12:03:37 KST 2025
+ro.system_ext.build.date.utc=1738983817
+ro.system_ext.build.fingerprint=samsung/pa3qxxx/qssi_64:15/AP3A.240905.015.A2/S938BXXU1AYB4:user/release-keys
+ro.system_ext.build.id=AP3A.240905.015.A2
+ro.system_ext.build.tags=release-keys
+ro.system_ext.build.type=user
+ro.surface_flinger.supports_background_blur=1
+persist.sys.sf.disable_blurs=0
+ro.sf.blurs_are_expensive=1
+ril.support.dynamic_imei=true
+# end common build properties
+###
+# end system_ext/etc/build.prop
+###
