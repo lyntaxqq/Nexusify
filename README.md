@@ -1,11 +1,11 @@
 <img width="1340" height="528" alt="aad" src="https://github.com/user-attachments/assets/58d1e84d-cbe3-4f97-ba0a-64e6f22a2997" />
-<p align="center">Nexusify is a Magisk Module for making Samsung Galaxy better.</p>
 <p align="center">
   <a href="https://github.com/lyntaxqq/Nexusify/LICENSE"><img loading="lazy" src="https://img.shields.io/github/license/lyntaxqq/Nexusify?style=for-the-badge&logo=github"/></a>
   <img loading="lazy" src="https://img.shields.io/github/last-commit/lyntaxqq/Nexusify?branch=sixteen&style=for-the-badge"/>
   <a href="https://github.com/lyntaxqq/Nexusify"><img loading="lazy" src="https://img.shields.io/github/stars/lyntaxqq/Nexusify?style=for-the-badge"/></a>
   <a href="https://crowdin.com/project/Nexusify"><img loading="lazy" src="https://img.shields.io/badge/Crowdin-263238?style=for-the-badge&logo=crowdin"/></a>
 </p>
+<p align="center">Nexusify is a Magisk Module for making Samsung Galaxy better.</p>
 
 # What is Nexusify?
 Nexusify is a Magisk Module. Created by lyntaxxq on 27/11/2025. 
