@@ -1,4 +1,6 @@
-<img width="1340" height="528" alt="aad" src="https://github.com/user-attachments/assets/58d1e84d-cbe3-4f97-ba0a-64e6f22a2997" />
+<h1 align="center">
+  <img loading="lazy" src="banner.png"/>
+</h1>
 <p align="center">
   <a href="https://github.com/lyntaxqq/Nexusify/LICENSE"><img loading="lazy" src="https://img.shields.io/github/license/lyntaxqq/Nexusify?style=for-the-badge&logo=github"/></a>
   <img loading="lazy" src="https://img.shields.io/github/last-commit/lyntaxqq/Nexusify?branch=sixteen&style=for-the-badge"/>
