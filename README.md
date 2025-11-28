@@ -34,6 +34,9 @@ If you have any issues, use XDAForums link. Any pull request will be welcome.
 - S25 Sounds
 - AOD Support
 - Mini Dex Support
+- Spoof GPU to Adreno 830
+- Spoof CPU to Snapdragon 8 Elite
+- Spoof device to S25 Ultra
 
 # Contributors
 @aliysnm for giving idea, and making AIonix.
