@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img loading="lazy" src="banner.png"/>
+  <img loading="lazy" src="readme-res/banner.png"/>
 </h1>
 <p align="center">
   <a href="https://github.com/lyntaxqq/Nexusify/LICENSE"><img loading="lazy" src="https://img.shields.io/github/license/lyntaxqq/Nexusify?style=for-the-badge&logo=github"/></a>
