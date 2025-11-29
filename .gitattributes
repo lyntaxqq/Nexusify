@@ -1,0 +1,5 @@
+system filter=lfs diff=lfs merge=lfs -text
+*.apk filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+system/priv-app/SamsungSmartSuggestions/SamsungSmartSuggestions.apk filter=lfs diff=lfs merge=lfs -text
+system/priv-app/SecSettings/SecSettings.apk filter=lfs diff=lfs merge=lfs -text
