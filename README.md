@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img loading="lazy" src="readme-res/v1.9.1.png"/>
+  <img loading="lazy" src="readme-res/2.0.0.png"/>
 </h1>
 <p align="center">
   <a href="https://github.com/lyntaxqq/Nexusify/LICENSE"><img loading="lazy" src="https://img.shields.io/github/license/lyntaxqq/Nexusify?style=for-the-badge&logo=github"/></a>
@@ -9,7 +9,7 @@
 </p>
 <p align="center">Nexusify is a Magisk Module for making Samsung Galaxy better.</p>
 
-# What is Nexusify?
+# ℹ️ What is Nexusify?
 Nexusify is a Magisk Module. Created by lyntaxxq on 27/11/2025. 
 
 It removes all useless Samsung apps that runs on background and eats your RAM or even CPU.
@@ -20,7 +20,9 @@ The goal is making this project bigger and smoother.
 
 If you have any issues, use XDAForums link. Any pull request will be welcome.
 
-# The features of Nexusify
+The status of project can be found in below.
+
+# 📱 The features of Nexusify
 - Smoother experience
 - Supports Galaxy A series.
 - Removing useless Samsung apps
@@ -46,5 +48,40 @@ If you have any issues, use XDAForums link. Any pull request will be welcome.
 - Spoof CPU to Snapdragon 8 Elite
 - Spoof device to S25 Ultra
 
-# Contributors
+# ✅ Status of project
+
+| Symbol | Meaning      |
+|:------:|:------------:|
+| ✅     | Working good |
+| ⚠️     | Problematic |
+| ❌     | Not Working |
+| ❔     |  Not Tested  |
+
+<details>
+<summary><b><strong>MediaTek Devices</strong></b></summary>
+
+## Samsung Galaxy A15
+
+<img align="right" src="readme-res/galaxy-a15.png" width="400" alt="Preview">
+
+**Status: Active** <br>
+**Codename: a15** <br>
+**Contributors: [lyntaxqq](https://github.com/lyntaxqq/), [aliysnm](https://xdaforums.com/aliysnm)**
+
+### UEFI Status
+
+| Feature            | Description    | State |
+|:-------------------|:---------------|:-----:|
+| Booting            |                | ✅    |
+| Galaxy AI          |                | ✅    |
+| Camera             |                | ✅    |
+| Spoof CPU          |                | ✅    |
+| Spoof GPU          |                | ✅    |
+| Live Blur          |                | ✅    |
+| Always-on-Display  |                | ✅    |
+| AI Wallpapers      |                | ✅    |
+
+</details>
+
+# ❤️ Contributors
 @aliysnm for giving idea, and making AIonix.
