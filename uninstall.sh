@@ -1,19 +1,37 @@
 #!/system/bin/sh
 
-# Print uninstallation
-ui_print "→ Welcome User, This is Nexusify Removal Process ←"
-ui_print "→ If you do not want to remove Nexusify, quit from app now! ←"
-ui_print "→ Uninstallation will give you all Samsung apps back. ←"
-ui_print "→ I am giving you 10 seconds for quiting. Stay in the app if you want to remove Nexusify ←"
-sleep 10
-
-
-ui_print "→ Removing module folder... ←"
-rm -rf /data/adb/modules/Nexusify
-ui_print "→ Done. ←"
+ui_print "         N e x u s i f y            "
+ui_print "           Uninstaller            "
 ui_print ""
-ui_print "→ Reinstalling removed applications... ←"
-# Thanks again to aliysnm for restore apps list
+sleep 1
+
+print_success() {
+  ui_print "[✅] $1"
+}
+
+print_info() {
+  ui_print "[ℹ️] $1"
+}
+
+animated_dots() {
+  local msg=$1
+  local count=$2
+  local i
+  
+  for i in $(seq 1 $count); do
+    ui_print "$msg$(printf '.%.0s' $(seq 1 $i))"
+    sleep 0.3
+  done
+}
+
+animated_dots "⏳ Initializing uninstallation..." 3
+
+print_info "Deleting module files..."
+rm -rf /data/adb/modules/Nexusify
+print_success "Module files deleted successfully."
+
+print_info "Restoring apps..."
+
 RESTORE_APPS=(
   "com.samsung.android.fast"
   "com.samsung.android.samsungpass"
@@ -97,18 +115,18 @@ for app in "${RESTORE_APPS[@]}"; do
 done
 
 ui_print ""
-print_success "→ Done. ←"
+print_success "All apps restored successfully."
 
-ui_print "→ Restoring device configurations to stock... ←"
+print_info "Restoring device configurations to stock... "
 cmd device_config delete launcher long_press_home_button_to_search
 cmd device_config delete launcher long_press_home_button_to_search_mpr
 cmd device_config delete launcher press_hold_nav_handle_to_search
 cmd device_config delete launcher press_hold_nav_handle_to_search_mpr
 cmd device_config delete launcher ENABLE_LONG_PRESS_NAV_HANDLE
 cmd device_config delete launcher ENABLE_LONG_PRESS_NAV_HANDLE_MPR
-print_success "→ Done... ←"
+print_success "Restored device configurations to stock successfully."
 
-ui_print "→ Cleaning cache files... ←"
+print_info "Cleaning cache files... "
 animated_dots "→ Cleaning... ←" 3
 
 rm -rf /cache/*
@@ -116,9 +134,8 @@ rm -rf /data/cache/*
 rm -rf /data/dalvik-cache/*
 rm -rf /data/system/package_cache/*
 
-print_success "→ Done. ←"
+print_success "Cleaned cache files succesfully. ←"
 
-print_divider
 ui_print ""
 ui_print "→      Nexus removing completed. ←"
 ui_print "→   Reboot your device to apply changes. ←"
