@@ -15,21 +15,18 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
-# We are telling the phone needs to install module to this folder:
 MODPATH="/data/adb/modules/Nexusify"
+SKIPUNZIP=0
 
-# Print installation
-ui_print "→ Welcome User, This is Nexusify Installation Process ←"
-ui_print "→ If you do not want to install Nexusify, quit from app now! ←"
-ui_print "→ This module will remove so much apps for performance. ←"
-ui_print "→ I am giving you 10 seconds for quiting. Stay in the app if you want to install Nexusify ←"
-sleep 10
+ui_print "         N e x u s i f y            "
+ui_print "            Installer            "
 ui_print ""
-ui_print ""
-ui_print "→ Good, I will remove useless Samsung apps now. ←"
+ui_print "⏳ Initializing installation..."
+sleep 1
+
+ui_print "📱 Preparing system components..."
 sleep 0.6
-# Thanks to aliysnm for giving debloat list
-ui_print ""
+
 pm uninstall --user 0 com.samsung.android.fast
 pm uninstall --user 0 com.samsung.android.samsungpass
 pm uninstall --user 0 com.samsung.android.ipsgeofence
@@ -92,18 +89,21 @@ pm uninstall --user 0 com.sec.enterprise.knox.cloudmdm.smdms
 pm uninstall --user 0 com.samsung.android.knox.analytics.uploader
 pm uninstall --user 0 com.sec.android.app.wlantest
 cmd package install-existing com.sec.android.smartfpsadjuster
-ui_print ""
-ui_print ""
-# Thanks to aliysnm again for device image configurations.
-ui_print "→ I will apply device image configurations. ←"
+
+ui_print "⏳ Applying device configurations..."
 su -c cp /data/adb/modules/AIonix/data/user_de/0/com.android.settings/files/DeviceImage.png /data/user_de/0/com.android.settings/files
 su -c chmod 644 /data/user_de/0/com.android.settings/files/DeviceImage.png
-ui_print ""
-ui_print "→ Now I will delete cache for getting more space and performance. ←"
+sleep 0.7
+ui_print "✅ Device configurations applied successfully."
+
+ui_print "🗑️ Deleting cache..."
 rm -rf /cache/*
 rm -rf /data/cache/*
 rm -rf /data/dalvik-cache/*
 rm -rf /data/system/package_cache/*
+sleep 0.5
+ui_print "✅ Cache deleted successfully."
 
-ui_print "→ The installation finished. Reboot your device to apply changes. ←"
-ui_print "→ by lyntaxxq, thnx to aliysnm. ←"
+sleep 0.6
+ui_print "✅ Installation finished, Nexusify by lyntaxxq, special files by aliysnm."
+ui_print "Reboot device to apply changes."
