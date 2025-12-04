@@ -17,11 +17,11 @@ ro.product.product.name=pa3qxxx
 ro.product.name_for_attestation=pa3qxxx
 ro.product.build.date=Sat Feb  8 12:03:37 KST 2025
 ro.product.build.date.utc=1738983817
-ro.product.build.fingerprint=samsung/pa3qxxx/qssi_64:15/AP3A.240905.015.A2/S938BXXU1AYB4:user/release-keys
+ro.product.build.fingerprint=samsung/pa3qxxx/qssi_64:15/AP3A.240905.015.A2/S938BXXS7BYK3:user/release-keys
 ro.product.build.id=AP3A.240905.015.A2
 ro.product.build.tags=release-keys
 ro.product.build.type=user
-ro.product.build.version.incremental=S938BXXU1AYB4
+ro.product.build.version.incremental=S938BXXS7BYK3
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=SM8750-AC
 ro.gpu.model=Adreno830
@@ -41,11 +41,11 @@ ro.product.bootimage.model=SM-S938B
 ro.product.bootimage.name=pa3qxxx
 ro.bootimage.build.date=Sat Feb  8 12:03:37 KST 2025
 ro.bootimage.build.date.utc=1738983817
-ro.bootimage.build.fingerprint=samsung/pa3qxxx/qssi_64:15/AP3A.240905.015.A2/S938BXXU1AYB4:user/release-keys
+ro.bootimage.build.fingerprint=samsung/pa3qxxx/qssi_64:15/AP3A.240905.015.A2/S938BXXS7BYK3:user/release-keys
 ro.bootimage.build.id=AP3A.240905.015.A2
 ro.bootimage.build.tags=release-keys
 ro.bootimage.build.type=user
-ro.bootimage.build.version.incremental=S938BXXU1AYB4
+ro.bootimage.build.version.incremental=S938BXXS7BYK3
 # end PRODUCT_BOOTIMAGE_PROPERTIES
 ###
 # end product/etc/build.prop
@@ -62,11 +62,11 @@ ro.product.vendor.model=SM-S938B
 ro.product.vendor.name=pa3qxxx
 ro.vendor.build.date=Sat Feb  8 12:03:37 KST 2025
 ro.vendor.build.date.utc=1738983817
-ro.vendor.build.fingerprint=samsung/pa3qxxx/qssi_64:15/AP3A.240905.015.A2/S938BXXU1AYB4:user/release-keys
+ro.vendor.build.fingerprint=samsung/pa3qxxx/qssi_64:15/AP3A.240905.015.A2/S938BXXS7BYK3:user/release-keys
 ro.vendor.build.id=AP3A.240905.015.A2
 ro.vendor.build.tags=release-keys
 ro.vendor.build.type=user
-ro.vendor.build.version.incremental=S938BXXU1AYB4
+ro.vendor.build.version.incremental=S938BXXS7BYK3
 vendor.sec.rild.libpath=/vendor/lib64/libsec-ril.so
 # end common build properties
 ###
@@ -84,7 +84,7 @@ ro.product.odm.model=SM-S938B
 ro.product.odm.name=pa3qxxx
 ro.odm.build.date=Sat Feb  8 12:03:37 KST 2025
 ro.odm.build.date.utc=1738983817
-ro.odm.build.fingerprint=samsung/pa3qxxx/qssi_64:15/AP3A.240905.015.A2/S938BXXU1AYB4:user/release-keys
+ro.odm.build.fingerprint=samsung/pa3qxxx/qssi_64:15/AP3A.240905.015.A2/S938BXXS7BYK3:user/release-keys
 ro.odm.build.id=AP3A.240905.015.A2
 # end common build properties
 ###
@@ -102,7 +102,7 @@ ro.product.system.model=SM-S938B
 ro.product.system.name=pa3qxxx
 ro.system.build.date=Sat Feb  8 12:03:37 KST 2025
 ro.system.build.date.utc=1738983817
-ro.system.build.fingerprint=samsung/pa3qxxx/qssi_64:15/AP3A.240905.015.A2/S938BXXU1AYB4:user/release-keys
+ro.system.build.fingerprint=samsung/pa3qxxx/qssi_64:15/AP3A.240905.015.A2/S938BXXS7BYK3:user/release-keys
 ro.system.build.id=AP3A.240905.015.A2
 ro.system.build.tags=release-keys
 ro.system.build.type=user
@@ -111,17 +111,17 @@ ro.system.build.type=user
 # begin build properties
 ro.build.date=Sat Feb  8 12:03:37 KST 2025
 ro.build.date.utc=1738983817
-ro.build.fingerprint=samsung/pa3qxxx/qssi_64:15/AP3A.240905.015.A2/S938BXXU1AYB4:user/release-keys
+ro.build.fingerprint=samsung/pa3qxxx/qssi_64:15/AP3A.240905.015.A2/S938BXXS7BYK3:user/release-keys
 ro.build.id=AP3A.240905.015.A2
-ro.build.display.id=AP3A.240905.015.A2.S938BXXU1AYB4 | Nexusify
+ro.build.display.id=AP3A.240905.015.A2.S938BXXS7BYK3 | Nexusify
 ro.build.type=user
 ro.build.user=android-build
 ro.build.host=SWDK6305
 ro.build.tags=release-keys
 ro.build.flavor=pa3qxxx-user
 ro.build.product=pa3qxxx
-ro.build.description=pa3qxxx-user 15 AP3A.240905.015.A2 S938BXXU1AYB4 release-keys
-ro.build.version.incremental=S938BXXU1AYB4
+ro.build.description=pa3qxxx-user 15 AP3A.240905.015.A2 S938BXXS7BYK3 release-keys
+ro.build.version.incremental=S938BXXS7BYK3
 # end build properties
 
 # Samsung Specific Properties
@@ -143,7 +143,7 @@ ro.product.system_ext.model=SM-S938B
 ro.product.system_ext.name=pa3qxxx
 ro.system_ext.build.date=Sat Feb  8 12:03:37 KST 2025
 ro.system_ext.build.date.utc=1738983817
-ro.system_ext.build.fingerprint=samsung/pa3qxxx/qssi_64:15/AP3A.240905.015.A2/S938BXXU1AYB4:user/release-keys
+ro.system_ext.build.fingerprint=samsung/pa3qxxx/qssi_64:15/AP3A.240905.015.A2/S938BXXS7BYK3:user/release-keys
 ro.system_ext.build.id=AP3A.240905.015.A2
 ro.system_ext.build.tags=release-keys
 ro.system_ext.build.type=user
@@ -154,4 +154,5 @@ ril.support.dynamic_imei=true
 # end common build properties
 ###
 # end system_ext/etc/build.prop
+
 ###
