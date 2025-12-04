@@ -105,5 +105,5 @@ sleep 0.5
 ui_print "✅ Cache deleted successfully."
 
 sleep 0.6
-ui_print "✅ Installation finished, Nexusify by lyntaxxq, special files by aliysnm."
+ui_print "✅ Installation finished, Nexusify by lyntaxxq."
 ui_print "Reboot device to apply changes."
