@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img loading="lazy" src="readme-res/2.0.0.png"/>
+  <img loading="lazy" src="readme-res/2.5.6.png"/>
 </h1>
 <p align="center">
   <a href="https://github.com/lyntaxqq/Nexusify/LICENSE"><img loading="lazy" src="https://img.shields.io/github/license/lyntaxqq/Nexusify?style=for-the-badge&logo=github"/></a>
@@ -10,7 +10,7 @@
 <p align="center">Nexusify is a Magisk Module for making Samsung Galaxy better.</p>
 
 # ℹ️ What is Nexusify?
-Nexusify is a Magisk Module. Created by lyntaxxq on 27/11/2025. 
+Nexusify is a Magisk Module.
 
 It removes all useless Samsung apps that runs on background and eats your RAM or even CPU.
 
