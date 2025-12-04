@@ -6,19 +6,24 @@
   <img loading="lazy" src="https://img.shields.io/github/last-commit/lyntaxqq/Nexusify?branch=sixteen&style=for-the-badge"/>
   <a href="https://github.com/lyntaxqq/Nexusify"><img loading="lazy" src="https://img.shields.io/github/stars/lyntaxqq/Nexusify?style=for-the-badge"/></a>
   <a href="https://crowdin.com/project/Nexusify"><img loading="lazy" src="https://img.shields.io/badge/Crowdin-263238?style=for-the-badge&logo=crowdin"/></a>
+
+<p align="center">
+  <a href="https://xdaforums.com/t/module-a155f-a155m-project-nexusify.4769926/">🚀 Discussions</a>
+  •
+  <a href="https://xdaforums.com/t/module-a155f-a155m-project-nexusify.4769926/">💬 XDAForums</a>
+</p>
+  
 </p>
 <p align="center">Nexusify is a Magisk Module for making Samsung Galaxy better.</p>
+
+
 
 # ℹ️ What is Nexusify?
 Nexusify is a Magisk Module.
 
-It removes all useless Samsung apps that runs on background and eats your RAM or even CPU.
+It removes all useless Samsung apps that runs on background and eats your RAM or even CPU. You can't see them because they are all hidden apps.
 
-You can't see them because they are all hidden apps.
-
-The goal is making this project bigger and smoother.
-
-If you have any issues, use XDAForums link. Any pull request will be welcome.
+The goal is making this project bigger and smoother.  If you have any issues, use XDAForums link. Any pull request will be welcome.
 
 The status of project can be found in below.
 
