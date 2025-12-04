@@ -71,9 +71,9 @@ The status of project can be found in below.
 
 **Status: Active** <br>
 **Codename: a15** <br>
-**Contributors: [lyntaxqq](https://github.com/lyntaxqq/), [aliysnm](https://xdaforums.com/aliysnm)**
+**Contributors: [lyntaxqq](https://github.com/lyntaxqq/)**
 
-### UEFI Status
+### Status
 
 | Feature            | Description    | State |
 |:-------------------|:---------------|:-----:|
