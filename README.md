@@ -15,7 +15,8 @@
   
 </p>
 <p align="center">Nexusify is a Magisk Module for making Samsung Galaxy better.</p>
-
+<p align="center">Project Screenshots:</p>
+<p align="center"><img width="480" height="1040" alt="image" src="https://github.com/user-attachments/assets/972c9f05-a4ff-4a16-92a2-2f046fe5be18" /></p>
 
 
 # ℹ️ What is Nexusify?
