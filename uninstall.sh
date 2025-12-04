@@ -27,7 +27,7 @@ animated_dots() {
 animated_dots "⏳ Initializing uninstallation..." 3
 
 print_info "Deleting module files..."
-rm -rf /data/adb/modules/nexus
+rm -rf /data/adb/modules/nexusify
 print_success "Module files deleted successfully."
 
 print_info "Restoring apps..."
