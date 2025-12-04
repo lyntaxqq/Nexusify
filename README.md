@@ -84,4 +84,3 @@ The status of project can be found in below.
 </details>
 
 # ❤️ Contributors
-@aliysnm for giving idea, and making AIonix.
