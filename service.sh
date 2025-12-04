@@ -16,7 +16,6 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-# Acceleration frequence and making RIL restart every 6 hours.
 echo performance > /sys/class/devfreq/13000000.mali/governor
 echo 648000000 > /sys/class/devfreq/13000000.mali/min_freq
 echo 1100000000 > /sys/class/devfreq/13000000.mali/max_freq
@@ -25,7 +24,6 @@ chmod 644 /sys/class/devfreq/13000000.mali/min_freq
 chmod 644 /sys/class/devfreq/13000000.mali/governor
 sleep 150
 
-# tysm to aliysnm
 while true; do
   setprop ctl.restart ril-daemon
   sleep 21600
