@@ -8,4 +8,3 @@ system/lib64/* filter=lfs diff=lfs merge=lfs -text
 system/priv64/* filter=lfs diff=lfs merge=lfs -text
 system/priv-app/SamsungSmartSuggestions/SamsungSmartSuggestions.apk filter=lfs diff=lfs merge=lfs -text
 system/priv-app/SecSettings/SecSettings.apk filter=lfs diff=lfs merge=lfs -text
-install.zip filter=lfs diff=lfs merge=lfs -text
