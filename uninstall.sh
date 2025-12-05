@@ -27,7 +27,7 @@ animated_dots() {
 animated_dots "⏳ Initializing uninstallation..." 3
 
 print_info "Deleting module files..."
-su -c rm -rf /data/adb/modules/nexusify
+rm -rf /data/adb/modules/nexusify
 print_success "Module files deleted successfully."
 
 print_info "Restoring apps..."
@@ -137,7 +137,7 @@ rm -rf /data/system/package_cache/*
 print_success "Cleaned cache files succesfully. ←"
 
 ui_print ""
-ui_print "→     Nexusify removing completed. ←"
+ui_print "→      Nexus removing completed. ←"
 ui_print "→   Reboot your device to apply changes. ←"
 ui_print "→       Hope to see you again         ←"
 ui_print ""

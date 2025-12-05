@@ -15,8 +15,7 @@
   
 </p>
 <p align="center">Nexusify is a Magisk Module for making Samsung Galaxy better.</p>
-<p align="center">Project Screenshots:</p>
-<p align="center"><img width="480" height="1040" alt="image" src="https://github.com/user-attachments/assets/972c9f05-a4ff-4a16-92a2-2f046fe5be18" /></p>
+
 
 
 # ℹ️ What is Nexusify?
@@ -86,27 +85,6 @@ The status of project can be found in below.
 | Live Blur          |                | ✅    |
 | Always-on-Display  |                | ✅    |
 | AI Wallpapers      |                | ✅    |
-
-## Samsung Galaxy A07
-
-<img align="right" src="readme-res/galaxy-a07.png" width="400" alt="Preview">
-
-**Status: Work-on progress** <br>
-**Codename: a07** <br>
-**Contributors: [lyntaxqq](https://github.com/lyntaxqq/)**
-
-### Status
-
-| Feature            | Description    | State |
-|:-------------------|:---------------|:-----:|
-| Booting            |                | ❔    |
-| Galaxy AI          |                | ❔    |
-| Camera             |                | ❔    |
-| Spoof CPU          |                | ❔    |
-| Spoof GPU          |                | ❔    |
-| Live Blur          |                | ❔    |
-| Always-on-Display  |                | ❔    |
-| AI Wallpapers      |                | ❔    |
 
 </details>
 
