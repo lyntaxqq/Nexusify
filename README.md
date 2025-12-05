@@ -71,7 +71,7 @@ The status of project can be found in below.
 
 **Status: Active** <br>
 **Codename: a15** <br>
-**Contributors: [lyntaxqq](https://github.com/lyntaxqq/)**
+**Contributors: [lyntaxqq](https://github.com/lyntaxqq/).**
 
 ### Status
 
@@ -85,6 +85,27 @@ The status of project can be found in below.
 | Live Blur          |                | ✅    |
 | Always-on-Display  |                | ✅    |
 | AI Wallpapers      |                | ✅    |
+
+## Samsung Galaxy A07
+
+<img align="right" src="readme-res/galaxy-a07.png" width="400" alt="Preview">
+
+**Status: Work-in progress** <br>
+**Codename: a07** <br>
+**Contributors: [lyntaxqq](https://github.com/lyntaxqq/).**
+
+### Status
+
+| Feature            | Description    | State |
+|:-------------------|:---------------|:-----:|
+| Booting            |                | ❔    |
+| Galaxy AI          |                | ❌    |
+| Camera             |                | ❌    |
+| Spoof CPU          |                | ❌    |
+| Spoof GPU          |                | ❌    |
+| Live Blur          |                | ❌    |
+| Always-on-Display  |                | ❌    |
+| AI Wallpapers      |                | ❌    |
 
 </details>
 
