@@ -129,3 +129,5 @@ The status of project can be found in below.
 </details>
 
 # ❤️ Contributors
+Note14ProUser for testing on A07 and reporting status.
+closeronget3 for testing on A15 4G and reporting status.
