@@ -53,6 +53,25 @@ The status of project can be found in below.
 - Spoof CPU to Snapdragon 8 Elite
 - Spoof device to S25 Ultra
 
+# ⚠️ Accountability
+```cpp
+#include <std_disclaimer.h>
+
+/*
+* Your warranty is now void.
+*
+* I am not responsible for bricked devices, dead SD cards,
+* thermonuclear war, or you getting fired because the alarm app failed. Please
+* do some research if you have any concerns about doing this to your device
+* YOU are choosing to make these modifications, and if
+* you point the finger at me for messing up your device, I will laugh at you.
+*
+* I am also not responsible for you getting in trouble for using any of the
+* features in this ROM, including but not limited to Call Recording, secure
+* flag removal etc.
+*/
+```
+
 # ✅ Status of project
 
 | Symbol | Meaning      |
