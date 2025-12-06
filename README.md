@@ -15,8 +15,7 @@
   
 </p>
 <p align="center">Nexusify is a Magisk Module for making Samsung Galaxy better.</p>
-
-
+<p align="center">The project licensed under General Public License [GNU] 3.0.</p>
 
 # ℹ️ What is Nexusify?
 Nexusify is a Magisk Module.
